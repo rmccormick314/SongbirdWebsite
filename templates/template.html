@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Flask Parent Template</title>
+    <link rel="stylesheet" href="{{ url_for('static',    filename='css/template.css') }}">
+  </head>
+  <body>
+        <h1 class="logo">Songbird Enterprises</h1>
+        <nav class="main-nav">
+          <div class="nav-container">
+          <section>
+            <a class="nav-entry" id="top1" href="/#top1">Home</a>
+            <a class="nav-entry" id="top2" href="/about#one">About</a>
+            <a class="nav-entry" id="top3" href="#three">Solutions</a>
+          </section>
+          <section>
+            <a class="nav-entry-top" id="one" href="#top1">Back</a>
+            <a class="nav-entry" href="#">Sectors</a>
+            <a class="nav-entry" href="#">History</a>
+            <a class="nav-entry" href="#">Contact</a>
+          </section>
+          <section>
+            <a class="nav-entry-top" id="two" href="#top2">Back</a>
+            <a class="nav-entry" href="#">Link 2a</a>
+            <a class="nav-entry" href="#">Link 2b</a>
+            <a class="nav-entry" href="#">Link 2c</a>
+          </section>
+          <section>
+            <a class="nav-entry-top" id="three" href="#top3">Back</a>
+            <a class="nav-entry" href="#">GIS</a>
+            <a class="nav-entry" href="#">Medicine & Biotech</a>
+            <a class="nav-entry" href="#">Water & Energy</a>
+          </section>
+          </div>
+        </nav>
+
+{% block content %}
+{% endblock %}
+
+ </body>
+</html>

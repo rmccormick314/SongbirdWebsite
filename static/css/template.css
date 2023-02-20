@@ -1,0 +1,32 @@
+h1 {
+  color: black;
+}
+
+section {
+  padding:calc(1em + 2px);
+  width:100vw;
+}
+
+.main-nav {
+  background-color:#eee;
+  overflow:hidden;
+  scroll-behavior:smooth;
+}
+
+.nav-container {
+  height:calc(3em + 4px);
+}
+
+.nav-entry-top {
+  padding:calc(1em + 2px);
+  width:100vw;
+}
+
+.nav-entry {
+  border:solid 1px transparent;
+  padding:1em;
+}
+
+*:focus {
+    outline: none;
+}
