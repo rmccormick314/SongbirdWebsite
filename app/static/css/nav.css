@@ -1,0 +1,51 @@
+/*======================================================
+                          Navbar
+  ======================================================*/
+  #topnav {
+     width: 100%;
+     height: 80px;
+
+     position: fixed;
+     top: 0;
+     left: 0;
+
+     background-color: #000080;
+     font-family: Raleway;
+
+     vertical-align: middle;
+  }
+
+  .nav-link {
+     display: inline-block;
+     width: 100px;
+     padding: 30px;
+
+     color: #66C4FC;
+
+     font-size: 20px;
+
+     text-align: center;
+     text-decoration: none;
+  }
+
+  .nav-link:hover {
+    color: #000080;
+    background-color: #66C4FC;
+    border-bottom: solid 6px;
+    padding-bottom: 21px;
+    border-color: white;
+  }
+
+  .nav-logo {
+     height: 60px;
+     margin-top: 10px;
+     margin-left: 20px;
+     margin-right: 20px;
+     float:left;
+  }
+
+  #about {
+     position: absolute;
+     top: 0;
+     right: 0;
+  }
